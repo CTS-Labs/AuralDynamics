@@ -1,3 +1,6 @@
+#ifndef __BASE_HPP__
+#define __BASE_HPP__
+
 #include "AuralDynamics.hpp"
 
 namespace AuralDynamics::Core {
@@ -9,3 +12,4 @@ namespace AuralDynamics::Core {
 	};
 }
 
+#endif
