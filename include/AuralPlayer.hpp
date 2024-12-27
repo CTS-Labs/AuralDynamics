@@ -2,11 +2,18 @@
 #define __AURALPLAYER_HPP__
 
 #include "AuralDynamics.hpp"
+#include <vector>
+#include <string>
 
 namespace AuralDynamics::Core {
-	DYNAMICS_API class AuralPlayer
+	class DYNAMICS_API AuralPlayer
 	{
 	public:
+		std::vector<char> buffer;
+		
+		AuralPlayer();
+		~AuralPlayer();
+
 		void loadSound();
 		void loadSFX_Env();
 		void play();

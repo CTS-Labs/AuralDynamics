@@ -6,7 +6,7 @@ namespace AuralDynamics::Core {
 
 	} sfxhead;
 	
-	typedef struct SFXSound {
+	typedef struct SFXContent {
 
 	} sound;
 
