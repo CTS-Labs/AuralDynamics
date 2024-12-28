@@ -11,3 +11,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_subdirectory(gui)
 add_subdirectory(lib)
+add_subdirectory(thirdparty/glfw)
