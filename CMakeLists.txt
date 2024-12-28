@@ -1,4 +1,4 @@
-#License: PCTSLPL v1
+#License: PCTSLPL v2
 cmake_minimum_required(VERSION 3.2)
 
 project(AuralDynamics VERSION 0.0.0.1)
